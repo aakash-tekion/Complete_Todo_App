@@ -5,7 +5,7 @@ import Tab from './Tab'
 import FilterIcon from '../../assets/Icons/FilterIcon.js'
 import todoStyles from '../../styles/Todo.styles.js'
 import globalStyles from '../../styles/index.styles.js'
-// import FilterModal from '../Modal/FilterModal.js'
+import FilterModal from '../Modal/FilterModal.js'
 import tabHeaderStyles from '../../styles/TabView.styles.js'
 export default function TodoTabs({ tasks, navigation }) {
     const layout = Dimensions.get('window')
